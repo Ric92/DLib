@@ -34,6 +34,11 @@
 #include <vector>
 #include <boost/dynamic_bitset.hpp>
 
+
+// Opencv back compatibility for OpenCV 4 
+#include <opencv2/core/types_c.h>
+#include <opencv2/imgproc/types_c.h>
+
 namespace DVision {
 
 /// BRIEF descriptor

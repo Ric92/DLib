@@ -15,6 +15,9 @@
 #include <vector>
 #include "FSolver.h"
 
+// Opencv back compatibility for OpenCV 4 
+#include <opencv2/core/core_c.h>
+
 namespace DVision {
 
 /// Computes fundamental matrices

@@ -16,6 +16,10 @@
 #include <opencv2/core/core.hpp>
 #include <string>
 
+
+// Opencv back compatibility for OpenCV 4 
+#include <opencv2/highgui/highgui_c.h>
+
 namespace DUtilsCV
 {
 

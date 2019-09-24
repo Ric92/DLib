@@ -14,6 +14,9 @@
 #include <opencv2/core/core.hpp>
 #include <vector>
 
+// Opencv back compatibility for OpenCV 4 
+#include <opencv2/core/core_c.h>
+
 namespace DVision {
 
 /// Computes fundamental matrices

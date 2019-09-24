@@ -38,6 +38,7 @@ namespace DVision
 {
 }
 
+
 // Features and descriptors
 #include "BRIEF.h"
 

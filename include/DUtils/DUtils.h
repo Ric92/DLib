@@ -37,6 +37,9 @@ namespace DUtils
 {
 }
 
+// Opencv back compatibility for OpenCV 4 
+#include <opencv2/core/types_c.h>
+
 // Exception
 #include "DException.h"
 
