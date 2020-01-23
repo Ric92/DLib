@@ -72,7 +72,7 @@ endif(BUILD_DVision)
 
 
 if(BUILD_DUtilsCV OR BUILD_DVision)
-  find_package(OpenCV REQUIRED)
+  find_package(OpenCV 3 REQUIRED)
 endif(BUILD_DUtilsCV OR BUILD_DVision)
 
 set(LIB_SHARED "SHARED")
